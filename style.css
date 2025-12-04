@@ -154,7 +154,6 @@ h4{
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   transform-origin: center;
   overflow: visible;
-  user-select: none;
   text-decoration: none;
   color: white;
 }
@@ -163,8 +162,7 @@ h4{
   transform: scale(1.2);
   background-color: rgb(236, 44, 153);
 }
-.button1 :active{
-  transform: scale(0.95);
-  background-color: rgb(208, 39, 135);
-
+ .button1:active{
+  transform: scale(1.1);
+  background-color: rgb(176, 25, 110);
 }
